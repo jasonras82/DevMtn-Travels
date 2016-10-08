@@ -6,12 +6,12 @@ angular.module('devmtnTravel', ['ui.router'])
                 templateUrl: "../views/about.html"
             })
             .state('adventurers',{
-                url:'/adventurers',
+                url:'adventurers',
                 parent:'home',
                 templateUrl: "../views/about-adventurers.html"
             })
             .state('contact',{
-                url:'/contact',
+                url:'contact',
                 parent:'home',
                 templateUrl: "../views/contact.html"
             })
