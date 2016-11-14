@@ -3,7 +3,7 @@ angular.module('devmtnTravel', ['ui.router'])
         $stateProvider
             .state('home',{
                 url:'/',
-                templateUrl: "../views/about.html"
+                templateUrl: '../views/about.html'
             })
             .state('adventurers',{
                 url:'adventurers',

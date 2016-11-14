@@ -1,6 +1,6 @@
 <section class="locations-container">
     <!-- This is where we need to repeat over our data that we are getting from our controller. The controller is getting the data from the service
-     If you haven't made teh controller do that now and include it on your state object in app.js-->
+     If you haven't made the controller do that now and include it on your state object in app.js-->
 
      <!-- {{ test }} -->
 
@@ -8,7 +8,7 @@
         <div class="image-container">
             <!-- Once we have the data we can use {{}} to bind that data to our view -->
             <!--Add the image link from the data here. Remember to put something in the alt tag, perhaps the name of the city-->
-            <img src="{{ location.image }}" alt="{{ location.city }}">
+            <img ng-src="{{ location.image }}" alt="{{ location.city }}">
         </div>
         <div class="location-inner-left">
             <!-- Now we can start to extract the data and bind it to our different elements here-->

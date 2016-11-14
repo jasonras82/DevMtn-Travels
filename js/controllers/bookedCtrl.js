@@ -1,6 +1,6 @@
 angular.module('devmtnTravel').controller('bookedCtrl', function($scope, mainSrv, $state) {
 
-// console.log($state);
+console.log($state);
 // console.log($state.params);
 
   // $scope.locations = mainSrv.travelInfo;

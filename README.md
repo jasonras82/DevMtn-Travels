@@ -170,7 +170,7 @@ The contact.html and the about-adventurers.html are both sub routes to the home 
 ####
 
 Now that our templates and controllers have been injected into each of the states, we need to add some markup to the templates to get them to work.
-The templates we need to make changes to are the booked.html,locations.html and the packages.html. Open up those files and you will see comments guiding you through the steps
+The templates we need to make changes to are the booked.html, locations.html and the packages.html. Open up those files and you will see comments guiding you through the steps
 
 Go ahead to your browser and test your content. Now that we have created templates that are linked to the state config, we should be able to see them appear when the url has an appropriate extension.
 For example use the following url extension to test the packages page : http://localhost:8080/#/packages.
@@ -181,7 +181,7 @@ If everything works correctly, go through the index.html file and the template f
 
 ####
 
-Next, go ahead and create a controller for the packages,booked and locations views
+Next, go ahead and create a controller for the packages, booked and locations views
 
 Create three new files, which are listed below, and place them in the controllers folder.
 
@@ -196,8 +196,8 @@ Make sure that $scope and mainSrv are injected into each of the controllers. And
 
 #### Add controller to state object
 
-Now that we have created our controllers and added the script tags to the index.html we need to tell the router what controller it needs to use
-On the packages,booked and location states add a controller property with the value as whatever you named the associated controller.
+Now that we have created our controllers and added the script tags to the index.html we need to tell the router what controller it needs to use.
+On the packages, booked and location states add a controller property with the value as whatever you named the associated controller.
 Now when you navigate to a view the router will know what controller it needs to be using
 
 ####
